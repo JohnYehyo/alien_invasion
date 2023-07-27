@@ -15,7 +15,7 @@ class Bullet(Sprite):
                                 self.settings.bullet_height)
         self.rect.midtop = ai_game.ship.rect.midtop
 
-        self.y = float(self.rect.y)git init
+        self.y = float(self.rect.y)
 
     def update(self):
         """移动子弹"""
